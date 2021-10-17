@@ -1,0 +1,168 @@
+/***** BASE STYLES *****/
+
+body
+    {
+        font-family: 'Montserrat', sans-serif;
+        width: 1200px;
+    }
+
+/***** GRID *****/
+
+.full-width 
+    {
+        width: 1200px;
+        margin: 0 auto;
+        overflow: auto;
+        padding-left: 20px;
+    }
+
+.half-width
+    {
+        width: 600px;
+        float: left;
+        overflow: auto;
+    }
+
+.third-width
+    {
+        width: 400px;
+        float: left;
+        overflow: auto;
+    }
+
+/***** header *****/
+header h1 
+    {
+        font-weight: bold;
+        font-size: 30px;
+        text-transform: uppercase;
+        line-height: 23px;
+        padding-top: 45px;
+
+    }
+header span
+    {
+        color: #77a466;
+    }
+
+nav {
+        float: right; 
+        padding-top: 45PX;
+        padding-bottom: 45PX;
+    }
+nav ul li
+    {
+        display: inline-block;
+    }
+nav ul li a 
+    {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #77a466;
+        font-size: 14px;
+        padding-left: 25PX; 
+        padding-top: 45PX;
+        font-weight: bold;
+    }
+/***** body-one *****/
+
+#body-one img
+
+    {
+        border: #77a466 solid;
+        border-width: 5px 0 5px 0;
+    }
+
+#body-one h2
+
+    {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: #77a466;
+    }
+
+#body-one p
+
+    {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+/***** body-two *****/
+
+.body-two h3
+    
+    {
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 25px;
+        font-weight: bold;
+        padding: 10px 30px;
+    }
+    
+.body-two ul li 
+
+    {
+        color: #77a466;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 25px 0 25px 0;
+        list-style-type: none;
+        padding: 0;
+    }
+.body-two p
+
+    {
+        font-size: 16px;
+        line-height: 21px;
+        padding: 10px 30px;
+    }
+
+#special
+
+    {
+        border-top: solid 2px #eee;
+        
+        width: 397px;
+    }
+
+#reviews
+
+    {
+        border-top: solid 2px #eee;
+        border-right: solid 2PX #EEE;
+        border-left: solid 2PX #EEE;
+        width: 397px;
+        
+    }
+    
+#contact
+
+    {
+        border-top: solid 2px #eee;
+        width: 397px;
+    }
+/***** footer *****/
+
+footer p
+    
+    {
+    text-align: center;
+    font-size: 16 px;
+    line-height: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 30px;
+    border-top: 3px solid #eee;
+    }
+
+
+footer span
+{
+    font-family: 'Galada', cursive;
+    color: #77a466;
+    font-weight: normal;
+    text-transform: lowercase;
+}
